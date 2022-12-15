@@ -1,0 +1,9 @@
+NomeFree;Nif;Telefone;Email
+JoaoEscritor; nif1; 917483989; joao@gmail.com
+ManelEscritor; nif2; 968453748; manel@gmail.com
+a; nif3; 917483989; joao@gmail.com
+b; nif4; 968453748; manel@gmail.com
+c; nif5; 917483989; joao@gmail.com
+d; nif6; 968453748; manel@gmail.com
+e; nif7; 917483989; joao@gmail.com
+f; nif8; 968453748; manel@gmail.com

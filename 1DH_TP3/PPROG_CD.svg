@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1841px" preserveAspectRatio="none" style="width:3263px;height:1841px;" version="1.1" viewBox="0 0 3263 1841" width="3263px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fjgc27emug3qs" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class SeriarAnunciosController-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="573.7656" style="stroke: #A80036; stroke-width: 1.5;" width="572" x="6" y="589"/>
+        <ellipse cx="218.75" cy="605" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M221.5156,600.875 Q221.6719,600.6563 221.8594,600.5469 Q222.0469,600.4375 222.2656,600.4375 Q222.6406,600.4375 222.875,600.6953 Q223.1094,600.9531 223.1094,601.5625 L223.1094,603.0156 Q223.1094,603.625 222.875,603.8906 Q222.6406,604.1563 222.2656,604.1563 Q221.9219,604.1563 221.7188,603.9531 Q221.5156,603.7656 221.4063,603.25 Q221.3594,602.8906 221.1719,602.7031 Q220.8438,602.3281 220.2344,602.1094 Q219.625,601.8906 219,601.8906 Q218.2344,601.8906 217.6016,602.2188 Q216.9688,602.5469 216.4766,603.2969 Q215.9844,604.0469 215.9844,605.0781 L215.9844,606.1719 Q215.9844,607.4063 216.875,608.2266 Q217.7656,609.0469 219.3594,609.0469 Q220.2969,609.0469 220.9531,608.7969 Q221.3438,608.6406 221.7656,608.2031 Q222.0313,607.9375 222.1797,607.8594 Q222.3281,607.7813 222.5313,607.7813 Q222.8594,607.7813 223.1172,608.0391 Q223.375,608.2969 223.375,608.6406 Q223.375,608.9844 223.0313,609.3906 Q222.5313,609.9688 221.7344,610.2969 Q220.6563,610.75 219.3594,610.75 Q217.8438,610.75 216.6406,610.125 Q215.6563,609.625 214.9688,608.5547 Q214.2813,607.4844 214.2813,606.2031 L214.2813,605.0469 Q214.2813,603.7188 214.8984,602.5703 Q215.5156,601.4219 216.6094,600.8047 Q217.7031,600.1875 218.9375,600.1875 Q219.6719,600.1875 220.3203,600.3516 Q220.9688,600.5156 221.5156,600.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="138" x="239.25" y="609.9102">SeriarAnunciosController</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="577" y1="621" y2="621"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="132" x="12" y="636.4189">-String FICHEIRO_ANUNCIO</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="12" y="650.2549">-String FICHEIRO_CANDIDATURA</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="146" x="12" y="664.0908">-String FICHEIRO_CT_TAREFA</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="171" x="12" y="677.9268">-String FICHEIRO_CT_FREELANCER</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="152" x="12" y="691.7627">-String FICHEIRO_FREELANCER</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="12" y="705.5986">-String FICHEIRO_TAREFA</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="12" y="719.4346">-String FICHEIRO_CT</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="157" x="12" y="733.2705">-anuncios : ArrayList &lt;Anuncio&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="284" x="12" y="747.1064">-competenciasTecnicas : ArrayList &lt;CompetenciaTecnica&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="140" x="12" y="760.9424">-tarefas : ArrayList &lt;Tarefa&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="406" x="12" y="774.7783">-competenciasTecnicasFreelancers : ArrayList &lt;CompetenciasTecnicasFreelancer&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="366" x="12" y="788.6143">-competenciasTecnicasTarefas : ArrayList &lt;CompetenciasTecnicasTarefa&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="194" x="12" y="802.4502">-candidaturas : ArrayList &lt;Candidatura&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="181" x="12" y="816.2861">-freelancers : ArrayList &lt;Freelancer&gt;</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="577" y1="822.7031" y2="822.7031"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129" x="12" y="838.1221">+SeriarAnuncioController()</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="12" y="851.958">+carregarInformacao() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="200" x="12" y="865.7939">+pesquisaTarefa(codigo : String) : Tarefa</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="216" x="12" y="879.6299">+pesquisaAnuncio(codigo : String) : Anuncio</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="220" x="12" y="893.4658">+pesquisaFreelancer(nif : String) : Freelancer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="336" x="12" y="907.3018">+pesquisaCompetenciaTecnica(codigo : String) : CompetenciaTecnica</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="479" x="12" y="921.1377">+pesquisaCompetenciasTecnicaTarefa(tarefa : Tarefa) : ArrayList &lt;CompetenciasTecnicasTarefa&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="560" x="12" y="934.9736">+pesquisaCompetenciasTecnicaFreelancer(freelancer : Freelancer) : ArrayList &lt;CompetenciasTecnicasFreelancer&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="167" x="12" y="948.8096">+lerCompetenciasTecnicas() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="12" y="962.6455">+lerFreelancers() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="12" y="976.4814">+lerTarefas() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101" x="12" y="990.3174">+lerAnuncios() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="119" x="12" y="1004.1533">+lerCandidaturas() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="219" x="12" y="1017.9893">+lerCompetenciasTecnicasFreelancer() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="199" x="12" y="1031.8252">+lerCompetenciasTecnicasTarefa() : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="310" x="12" y="1045.6611">+getCompetenciasTecnicas() : ArrayList &lt;CompetenciaTecnica&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="392" x="12" y="1059.4971">+getCompetenciasTecnicasTarefas() : ArrayList &lt;CompetenciasTecnicasTarefa&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="432" x="12" y="1073.333">+getCompetenciasTecnicasFreelancers() : ArrayList &lt;CompetenciasTecnicasFreelancer&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="184" x="12" y="1087.1689">+getAnuncios() : ArrayList &lt;Anuncio&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="168" x="12" y="1101.0049">+getTarefas() : ArrayList &lt;Tarefa&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="220" x="12" y="1114.8408">+getCandidaturas() : ArrayList &lt;Candidatura&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="208" x="12" y="1128.6768">+getFreelancers() : ArrayList &lt;Freelancer&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="425" x="12" y="1142.5127">+getCompetenciasTecnicasDaTarefa(tarefa : Tarefa) : ArrayList &lt;CompetenciaTecnica&gt;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="329" x="12" y="1156.3486">+getCandidaturasAnuncio(codigo : String) : ArrayList &lt;Candidatura&gt;</text>
+        <!--class Anuncio-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="172.5234" style="stroke: #A80036; stroke-width: 1.5;" width="211" x="1363" y="1030.5"/>
+        <ellipse cx="1442.25" cy="1046.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1445.0156,1042.375 Q1445.1719,1042.1563 1445.3594,1042.0469 Q1445.5469,1041.9375 1445.7656,1041.9375 Q1446.1406,1041.9375 1446.375,1042.1953 Q1446.6094,1042.4531 1446.6094,1043.0625 L1446.6094,1044.5156 Q1446.6094,1045.125 1446.375,1045.3906 Q1446.1406,1045.6563 1445.7656,1045.6563 Q1445.4219,1045.6563 1445.2188,1045.4531 Q1445.0156,1045.2656 1444.9063,1044.75 Q1444.8594,1044.3906 1444.6719,1044.2031 Q1444.3438,1043.8281 1443.7344,1043.6094 Q1443.125,1043.3906 1442.5,1043.3906 Q1441.7344,1043.3906 1441.1016,1043.7188 Q1440.4688,1044.0469 1439.9766,1044.7969 Q1439.4844,1045.5469 1439.4844,1046.5781 L1439.4844,1047.6719 Q1439.4844,1048.9063 1440.375,1049.7266 Q1441.2656,1050.5469 1442.8594,1050.5469 Q1443.7969,1050.5469 1444.4531,1050.2969 Q1444.8438,1050.1406 1445.2656,1049.7031 Q1445.5313,1049.4375 1445.6797,1049.3594 Q1445.8281,1049.2813 1446.0313,1049.2813 Q1446.3594,1049.2813 1446.6172,1049.5391 Q1446.875,1049.7969 1446.875,1050.1406 Q1446.875,1050.4844 1446.5313,1050.8906 Q1446.0313,1051.4688 1445.2344,1051.7969 Q1444.1563,1052.25 1442.8594,1052.25 Q1441.3438,1052.25 1440.1406,1051.625 Q1439.1563,1051.125 1438.4688,1050.0547 Q1437.7813,1048.9844 1437.7813,1047.7031 L1437.7813,1046.5469 Q1437.7813,1045.2188 1438.3984,1044.0703 Q1439.0156,1042.9219 1440.1094,1042.3047 Q1441.2031,1041.6875 1442.4375,1041.6875 Q1443.1719,1041.6875 1443.8203,1041.8516 Q1444.4688,1042.0156 1445.0156,1042.375 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="44" x="1462.75" y="1051.4102">Anuncio</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1364" x2="1573" y1="1062.5" y2="1062.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="1369" y="1077.9189">-String codigo</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="1369" y="1091.7549">-Tarefa tarefa</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1364" x2="1573" y1="1098.1719" y2="1098.1719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="199" x="1369" y="1113.5908">+Anuncio(codigo : String, tarefa : Tarefa)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="1369" y="1127.4268">+getCodigo() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="1369" y="1141.2627">+setCodigo(codigo : String) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="1369" y="1155.0986">+getTarefa() : Tarefa</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="1369" y="1168.9346">+setTarefa(tarefa : Tarefa) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="125" x="1369" y="1182.7705">+getNomeTarefa() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="1369" y="1196.6064">+toString() : String</text>
+        <!--class Candidatura-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="352.3906" style="stroke: #A80036; stroke-width: 1.5;" width="527" x="1838" y="946"/>
+        <ellipse cx="2063.25" cy="962" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2066.0156,957.875 Q2066.1719,957.6563 2066.3594,957.5469 Q2066.5469,957.4375 2066.7656,957.4375 Q2067.1406,957.4375 2067.375,957.6953 Q2067.6094,957.9531 2067.6094,958.5625 L2067.6094,960.0156 Q2067.6094,960.625 2067.375,960.8906 Q2067.1406,961.1563 2066.7656,961.1563 Q2066.4219,961.1563 2066.2188,960.9531 Q2066.0156,960.7656 2065.9063,960.25 Q2065.8594,959.8906 2065.6719,959.7031 Q2065.3438,959.3281 2064.7344,959.1094 Q2064.125,958.8906 2063.5,958.8906 Q2062.7344,958.8906 2062.1016,959.2188 Q2061.4688,959.5469 2060.9766,960.2969 Q2060.4844,961.0469 2060.4844,962.0781 L2060.4844,963.1719 Q2060.4844,964.4063 2061.375,965.2266 Q2062.2656,966.0469 2063.8594,966.0469 Q2064.7969,966.0469 2065.4531,965.7969 Q2065.8438,965.6406 2066.2656,965.2031 Q2066.5313,964.9375 2066.6797,964.8594 Q2066.8281,964.7813 2067.0313,964.7813 Q2067.3594,964.7813 2067.6172,965.0391 Q2067.875,965.2969 2067.875,965.6406 Q2067.875,965.9844 2067.5313,966.3906 Q2067.0313,966.9688 2066.2344,967.2969 Q2065.1563,967.75 2063.8594,967.75 Q2062.3438,967.75 2061.1406,967.125 Q2060.1563,966.625 2059.4688,965.5547 Q2058.7813,964.4844 2058.7813,963.2031 L2058.7813,962.0469 Q2058.7813,960.7188 2059.3984,959.5703 Q2060.0156,958.4219 2061.1094,957.8047 Q2062.2031,957.1875 2063.4375,957.1875 Q2064.1719,957.1875 2064.8203,957.3516 Q2065.4688,957.5156 2066.0156,957.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="2083.75" y="966.9102">Candidatura</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1839" x2="2364" y1="978" y2="978"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="1844" y="993.4189">-Freelancer freelancer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="85" x="1844" y="1007.2549">-Anuncio anuncio</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="108" x="1844" y="1021.0908">-Date dataCandidatura</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="1844" y="1034.9268">-Double valorPretendido</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="1844" y="1048.7627">-Double media</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="1844" y="1062.5986">-Double desvio</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1839" x2="2364" y1="1069.0156" y2="1069.0156"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="515" x="1844" y="1084.4346">+Candidatura(freelancer : Freelancer, anuncio : Anuncio, dataCandidatura : Date, valorPretendido : Double)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="142" x="1844" y="1098.2705">+getFreelancer() : Freelancer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="145" x="1844" y="1112.1064">+getNomeFreelancer() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="221" x="1844" y="1125.9424">+setFreelancer(freelancer : Freelancer) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="118" x="1844" y="1139.7783">+getAnuncio() : Anuncio</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="139" x="1844" y="1153.6143">+getCodigoAnuncio() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="185" x="1844" y="1167.4502">+setAnuncio(anuncio : Anuncio) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="140" x="1844" y="1181.2861">+getDataCandidatura() : Date</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="248" x="1844" y="1195.1221">+setDataCandidatura(dataCandidatura : Date) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="148" x="1844" y="1208.958">+getValorPretendido() : Double</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="252" x="1844" y="1222.7939">+setValorPretendido(valorPretendido : Double) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="1844" y="1236.6299">+getMedia() : Double</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156" x="1844" y="1250.4658">+setMedia(media : Double) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="104" x="1844" y="1264.3018">+getDesvio() : Double</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="165" x="1844" y="1278.1377">+setDesvio(desvio : Double) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="1844" y="1291.9736">+toString() : String</text>
+        <!--class CompetenciaTecnica-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="144.8516" style="stroke: #A80036; stroke-width: 1.5;" width="264" x="736.5" y="1380.5"/>
+        <ellipse cx="805.75" cy="1396.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M808.5156,1392.375 Q808.6719,1392.1563 808.8594,1392.0469 Q809.0469,1391.9375 809.2656,1391.9375 Q809.6406,1391.9375 809.875,1392.1953 Q810.1094,1392.4531 810.1094,1393.0625 L810.1094,1394.5156 Q810.1094,1395.125 809.875,1395.3906 Q809.6406,1395.6563 809.2656,1395.6563 Q808.9219,1395.6563 808.7188,1395.4531 Q808.5156,1395.2656 808.4063,1394.75 Q808.3594,1394.3906 808.1719,1394.2031 Q807.8438,1393.8281 807.2344,1393.6094 Q806.625,1393.3906 806,1393.3906 Q805.2344,1393.3906 804.6016,1393.7188 Q803.9688,1394.0469 803.4766,1394.7969 Q802.9844,1395.5469 802.9844,1396.5781 L802.9844,1397.6719 Q802.9844,1398.9063 803.875,1399.7266 Q804.7656,1400.5469 806.3594,1400.5469 Q807.2969,1400.5469 807.9531,1400.2969 Q808.3438,1400.1406 808.7656,1399.7031 Q809.0313,1399.4375 809.1797,1399.3594 Q809.3281,1399.2813 809.5313,1399.2813 Q809.8594,1399.2813 810.1172,1399.5391 Q810.375,1399.7969 810.375,1400.1406 Q810.375,1400.4844 810.0313,1400.8906 Q809.5313,1401.4688 808.7344,1401.7969 Q807.6563,1402.25 806.3594,1402.25 Q804.8438,1402.25 803.6406,1401.625 Q802.6563,1401.125 801.9688,1400.0547 Q801.2813,1398.9844 801.2813,1397.7031 L801.2813,1396.5469 Q801.2813,1395.2188 801.8984,1394.0703 Q802.5156,1392.9219 803.6094,1392.3047 Q804.7031,1391.6875 805.9375,1391.6875 Q806.6719,1391.6875 807.3203,1391.8516 Q807.9688,1392.0156 808.5156,1392.375 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="117" x="826.25" y="1401.4102">CompetenciaTecnica</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="737.5" x2="999.5" y1="1412.5" y2="1412.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="742.5" y="1427.9189">-String codigo</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="742.5" y="1441.7549">-String nome</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="737.5" x2="999.5" y1="1448.1719" y2="1448.1719"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="252" x="742.5" y="1463.5908">+CompetenciaTecnica(codigo : String, nome : String)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="742.5" y="1477.4268">+getCodigo() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="742.5" y="1491.2627">+setCodigo(codigo : String) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="742.5" y="1505.0986">+getNome() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="148" x="742.5" y="1518.9346">+setNome(nome : String) : void</text>
+        <!--class CompetenciasTecnicasFreelancer-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="186.3594" style="stroke: #A80036; stroke-width: 1.5;" width="619" x="1159" y="1486"/>
+        <ellipse cx="1369.25" cy="1502" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1372.0156,1497.875 Q1372.1719,1497.6563 1372.3594,1497.5469 Q1372.5469,1497.4375 1372.7656,1497.4375 Q1373.1406,1497.4375 1373.375,1497.6953 Q1373.6094,1497.9531 1373.6094,1498.5625 L1373.6094,1500.0156 Q1373.6094,1500.625 1373.375,1500.8906 Q1373.1406,1501.1563 1372.7656,1501.1563 Q1372.4219,1501.1563 1372.2188,1500.9531 Q1372.0156,1500.7656 1371.9063,1500.25 Q1371.8594,1499.8906 1371.6719,1499.7031 Q1371.3438,1499.3281 1370.7344,1499.1094 Q1370.125,1498.8906 1369.5,1498.8906 Q1368.7344,1498.8906 1368.1016,1499.2188 Q1367.4688,1499.5469 1366.9766,1500.2969 Q1366.4844,1501.0469 1366.4844,1502.0781 L1366.4844,1503.1719 Q1366.4844,1504.4063 1367.375,1505.2266 Q1368.2656,1506.0469 1369.8594,1506.0469 Q1370.7969,1506.0469 1371.4531,1505.7969 Q1371.8438,1505.6406 1372.2656,1505.2031 Q1372.5313,1504.9375 1372.6797,1504.8594 Q1372.8281,1504.7813 1373.0313,1504.7813 Q1373.3594,1504.7813 1373.6172,1505.0391 Q1373.875,1505.2969 1373.875,1505.6406 Q1373.875,1505.9844 1373.5313,1506.3906 Q1373.0313,1506.9688 1372.2344,1507.2969 Q1371.1563,1507.75 1369.8594,1507.75 Q1368.3438,1507.75 1367.1406,1507.125 Q1366.1563,1506.625 1365.4688,1505.5547 Q1364.7813,1504.4844 1364.7813,1503.2031 L1364.7813,1502.0469 Q1364.7813,1500.7188 1365.3984,1499.5703 Q1366.0156,1498.4219 1367.1094,1497.8047 Q1368.2031,1497.1875 1369.4375,1497.1875 Q1370.1719,1497.1875 1370.8203,1497.3516 Q1371.4688,1497.5156 1372.0156,1497.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="190" x="1389.75" y="1506.9102">CompetenciasTecnicasFreelancer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1160" x2="1777" y1="1518" y2="1518"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="109" x="1165" y="1533.4189">-Freelancer freelancer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="206" x="1165" y="1547.2549">-CompetenciaTecnica competenciaTecnica</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="1165" y="1561.0908">-Int grauProficiencia</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1160" x2="1777" y1="1567.5078" y2="1567.5078"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="607" x="1165" y="1582.9268">+CompetenciasTecnicasFreelancer(freelancer : Freelancer, competenciaTecnica : CompetenciaTecnica, grauProficiencia : int)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="142" x="1165" y="1596.7627">+getFreelancer() : Freelancer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="221" x="1165" y="1610.5986">+setFreelancer(freelancer : Freelancer) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="238" x="1165" y="1624.4346">+getCompetenciaTecnica() : CompetenciaTecnica</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="366" x="1165" y="1638.2705">+setCompetenciaTecnica(competenciaTecnica : CompetenciaTecnica) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="129" x="1165" y="1652.1064">+getGrauProficiencia() : int</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="236" x="1165" y="1665.9424">+setGrauProficiencia(grauProficiencia : int) : void</text>
+        <!--class CompetenciasTecnicasTarefa-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="186.3594" style="stroke: #A80036; stroke-width: 1.5;" width="558" x="1189.5" y="1239"/>
+        <ellipse cx="1381.25" cy="1255" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1384.0156,1250.875 Q1384.1719,1250.6563 1384.3594,1250.5469 Q1384.5469,1250.4375 1384.7656,1250.4375 Q1385.1406,1250.4375 1385.375,1250.6953 Q1385.6094,1250.9531 1385.6094,1251.5625 L1385.6094,1253.0156 Q1385.6094,1253.625 1385.375,1253.8906 Q1385.1406,1254.1563 1384.7656,1254.1563 Q1384.4219,1254.1563 1384.2188,1253.9531 Q1384.0156,1253.7656 1383.9063,1253.25 Q1383.8594,1252.8906 1383.6719,1252.7031 Q1383.3438,1252.3281 1382.7344,1252.1094 Q1382.125,1251.8906 1381.5,1251.8906 Q1380.7344,1251.8906 1380.1016,1252.2188 Q1379.4688,1252.5469 1378.9766,1253.2969 Q1378.4844,1254.0469 1378.4844,1255.0781 L1378.4844,1256.1719 Q1378.4844,1257.4063 1379.375,1258.2266 Q1380.2656,1259.0469 1381.8594,1259.0469 Q1382.7969,1259.0469 1383.4531,1258.7969 Q1383.8438,1258.6406 1384.2656,1258.2031 Q1384.5313,1257.9375 1384.6797,1257.8594 Q1384.8281,1257.7813 1385.0313,1257.7813 Q1385.3594,1257.7813 1385.6172,1258.0391 Q1385.875,1258.2969 1385.875,1258.6406 Q1385.875,1258.9844 1385.5313,1259.3906 Q1385.0313,1259.9688 1384.2344,1260.2969 Q1383.1563,1260.75 1381.8594,1260.75 Q1380.3438,1260.75 1379.1406,1260.125 Q1378.1563,1259.625 1377.4688,1258.5547 Q1376.7813,1257.4844 1376.7813,1256.2031 L1376.7813,1255.0469 Q1376.7813,1253.7188 1377.3984,1252.5703 Q1378.0156,1251.4219 1379.1094,1250.8047 Q1380.2031,1250.1875 1381.4375,1250.1875 Q1382.1719,1250.1875 1382.8203,1250.3516 Q1383.4688,1250.5156 1384.0156,1250.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="166" x="1401.75" y="1259.9102">CompetenciasTecnicasTarefa</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1190.5" x2="1746.5" y1="1271" y2="1271"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="1195.5" y="1286.4189">-Tarefa tarefa</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="206" x="1195.5" y="1300.2549">-CompetenciaTecnica competenciaTecnica</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="1195.5" y="1314.0908">-Boolean obrigatoria</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1190.5" x2="1746.5" y1="1320.5078" y2="1320.5078"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="546" x="1195.5" y="1335.9268">+CompetenciasTecnicasTarefa(tarefa : Tarefa, competenciaTecnica : CompetenciaTecnica, obrigatoria : boolean)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="1195.5" y="1349.7627">+getTarefa() : Tarefa</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="1195.5" y="1363.5986">+setTarefa(tarefa : Tarefa) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="238" x="1195.5" y="1377.4346">+getCompetenciaTecnica() : CompetenciaTecnica</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="366" x="1195.5" y="1391.2705">+setCompetenciaTecnica(competenciaTecnica : CompetenciaTecnica) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="1195.5" y="1405.1064">+isObrigatoria() : Boolean</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="210" x="1195.5" y="1418.9424">+setObrigatoria(obrigatoria : Boolean) : void</text>
+        <!--class Freelancer-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="200.1953" style="stroke: #A80036; stroke-width: 1.5;" width="345" x="696" y="1632"/>
+        <ellipse cx="834.75" cy="1648" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M837.5156,1643.875 Q837.6719,1643.6563 837.8594,1643.5469 Q838.0469,1643.4375 838.2656,1643.4375 Q838.6406,1643.4375 838.875,1643.6953 Q839.1094,1643.9531 839.1094,1644.5625 L839.1094,1646.0156 Q839.1094,1646.625 838.875,1646.8906 Q838.6406,1647.1563 838.2656,1647.1563 Q837.9219,1647.1563 837.7188,1646.9531 Q837.5156,1646.7656 837.4063,1646.25 Q837.3594,1645.8906 837.1719,1645.7031 Q836.8438,1645.3281 836.2344,1645.1094 Q835.625,1644.8906 835,1644.8906 Q834.2344,1644.8906 833.6016,1645.2188 Q832.9688,1645.5469 832.4766,1646.2969 Q831.9844,1647.0469 831.9844,1648.0781 L831.9844,1649.1719 Q831.9844,1650.4063 832.875,1651.2266 Q833.7656,1652.0469 835.3594,1652.0469 Q836.2969,1652.0469 836.9531,1651.7969 Q837.3438,1651.6406 837.7656,1651.2031 Q838.0313,1650.9375 838.1797,1650.8594 Q838.3281,1650.7813 838.5313,1650.7813 Q838.8594,1650.7813 839.1172,1651.0391 Q839.375,1651.2969 839.375,1651.6406 Q839.375,1651.9844 839.0313,1652.3906 Q838.5313,1652.9688 837.7344,1653.2969 Q836.6563,1653.75 835.3594,1653.75 Q833.8438,1653.75 832.6406,1653.125 Q831.6563,1652.625 830.9688,1651.5547 Q830.2813,1650.4844 830.2813,1649.2031 L830.2813,1648.0469 Q830.2813,1646.7188 830.8984,1645.5703 Q831.5156,1644.4219 832.6094,1643.8047 Q833.7031,1643.1875 834.9375,1643.1875 Q835.6719,1643.1875 836.3203,1643.3516 Q836.9688,1643.5156 837.5156,1643.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="59" x="855.25" y="1652.9102">Freelancer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="697" x2="1040" y1="1664" y2="1664"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="702" y="1679.4189">-String nome</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="47" x="702" y="1693.2549">-String nif</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="702" y="1707.0908">-String telefone</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="702" y="1720.9268">-String email</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="697" x2="1040" y1="1727.3438" y2="1727.3438"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="333" x="702" y="1742.7627">+Freelancer(nome : String, nif : String, telefone : String, email : String)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="702" y="1756.5986">+getNome() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="148" x="702" y="1770.4346">+setNome(nome : String) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="702" y="1784.2705">+getNif() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="702" y="1798.1064">+setNif(nif : String) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="108" x="702" y="1811.9424">+getTelefone() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="176" x="702" y="1825.7783">+setTelefone(telefone : String) : void</text>
+        <!--class Tarefa-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="186.3594" style="stroke: #A80036; stroke-width: 1.5;" width="332" x="702.5" y="1088"/>
+        <ellipse cx="846.75" cy="1104" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M849.5156,1099.875 Q849.6719,1099.6563 849.8594,1099.5469 Q850.0469,1099.4375 850.2656,1099.4375 Q850.6406,1099.4375 850.875,1099.6953 Q851.1094,1099.9531 851.1094,1100.5625 L851.1094,1102.0156 Q851.1094,1102.625 850.875,1102.8906 Q850.6406,1103.1563 850.2656,1103.1563 Q849.9219,1103.1563 849.7188,1102.9531 Q849.5156,1102.7656 849.4063,1102.25 Q849.3594,1101.8906 849.1719,1101.7031 Q848.8438,1101.3281 848.2344,1101.1094 Q847.625,1100.8906 847,1100.8906 Q846.2344,1100.8906 845.6016,1101.2188 Q844.9688,1101.5469 844.4766,1102.2969 Q843.9844,1103.0469 843.9844,1104.0781 L843.9844,1105.1719 Q843.9844,1106.4063 844.875,1107.2266 Q845.7656,1108.0469 847.3594,1108.0469 Q848.2969,1108.0469 848.9531,1107.7969 Q849.3438,1107.6406 849.7656,1107.2031 Q850.0313,1106.9375 850.1797,1106.8594 Q850.3281,1106.7813 850.5313,1106.7813 Q850.8594,1106.7813 851.1172,1107.0391 Q851.375,1107.2969 851.375,1107.6406 Q851.375,1107.9844 851.0313,1108.3906 Q850.5313,1108.9688 849.7344,1109.2969 Q848.6563,1109.75 847.3594,1109.75 Q845.8438,1109.75 844.6406,1109.125 Q843.6563,1108.625 842.9688,1107.5547 Q842.2813,1106.4844 842.2813,1105.2031 L842.2813,1104.0469 Q842.2813,1102.7188 842.8984,1101.5703 Q843.5156,1100.4219 844.6094,1099.8047 Q845.7031,1099.1875 846.9375,1099.1875 Q847.6719,1099.1875 848.3203,1099.3516 Q848.9688,1099.5156 849.5156,1099.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="867.25" y="1108.9102">Tarefa</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="703.5" x2="1033.5" y1="1120" y2="1120"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="708.5" y="1135.4189">-String codigo</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="708.5" y="1149.2549">-String designacao</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="80" x="708.5" y="1163.0908">-String categoria</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="703.5" x2="1033.5" y1="1169.5078" y2="1169.5078"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="320" x="708.5" y="1184.9268">+Tarefa(codigo : String, designacao : String, categoria : Categoria)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="708.5" y="1198.7627">+getCodigo() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="160" x="708.5" y="1212.5986">+setCodigo(codigo : String) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="708.5" y="1226.4346">+getDesignacao() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="208" x="708.5" y="1240.2705">+setDesignacao(designacao : String) : void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="708.5" y="1254.1064">+getCategoria() : String</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="186" x="708.5" y="1267.9424">+setCategoria(categoria : String) : void</text>
+        <!--class TipoSeriacao-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="61.8359" style="stroke: #A80036; stroke-width: 1.5;" width="455" x="1241" y="413"/>
+        <ellipse cx="1427.75" cy="429" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1428.7031,425.6406 L1428.7031,432.2969 L1430.4219,432.2969 Q1431.0313,432.2969 1431.2969,432.5313 Q1431.5625,432.7656 1431.5625,433.1563 Q1431.5625,433.5313 1431.2969,433.7656 Q1431.0313,434 1430.4219,434 L1425.2813,434 Q1424.6719,434 1424.4063,433.7656 Q1424.1406,433.5313 1424.1406,433.1406 Q1424.1406,432.7656 1424.4063,432.5313 Q1424.6719,432.2969 1425.2813,432.2969 L1427,432.2969 L1427,425.6406 L1425.2813,425.6406 Q1424.6719,425.6406 1424.4063,425.4063 Q1424.1406,425.1719 1424.1406,424.7813 Q1424.1406,424.4063 1424.4063,424.1719 Q1424.6719,423.9375 1425.2813,423.9375 L1430.4219,423.9375 Q1431.0313,423.9375 1431.2969,424.1719 Q1431.5625,424.4063 1431.5625,424.7813 Q1431.5625,425.1719 1431.2969,425.4063 Q1431.0313,425.6406 1430.4219,425.6406 L1428.7031,425.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="1448.25" y="433.9102">TipoSeriacao</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1242" x2="1695" y1="445" y2="445"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1242" x2="1695" y1="453" y2="453"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="443" x="1247" y="468.4189">executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList &lt;Candidatura&gt;</text>
+        <!--class TipoSeriacao1-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="75.6719" style="stroke: #A80036; stroke-width: 1.5;" width="461" x="638" y="517"/>
+        <ellipse cx="824.25" cy="533" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M827.0156,528.875 Q827.1719,528.6563 827.3594,528.5469 Q827.5469,528.4375 827.7656,528.4375 Q828.1406,528.4375 828.375,528.6953 Q828.6094,528.9531 828.6094,529.5625 L828.6094,531.0156 Q828.6094,531.625 828.375,531.8906 Q828.1406,532.1563 827.7656,532.1563 Q827.4219,532.1563 827.2188,531.9531 Q827.0156,531.7656 826.9063,531.25 Q826.8594,530.8906 826.6719,530.7031 Q826.3438,530.3281 825.7344,530.1094 Q825.125,529.8906 824.5,529.8906 Q823.7344,529.8906 823.1016,530.2188 Q822.4688,530.5469 821.9766,531.2969 Q821.4844,532.0469 821.4844,533.0781 L821.4844,534.1719 Q821.4844,535.4063 822.375,536.2266 Q823.2656,537.0469 824.8594,537.0469 Q825.7969,537.0469 826.4531,536.7969 Q826.8438,536.6406 827.2656,536.2031 Q827.5313,535.9375 827.6797,535.8594 Q827.8281,535.7813 828.0313,535.7813 Q828.3594,535.7813 828.6172,536.0391 Q828.875,536.2969 828.875,536.6406 Q828.875,536.9844 828.5313,537.3906 Q828.0313,537.9688 827.2344,538.2969 Q826.1563,538.75 824.8594,538.75 Q823.3438,538.75 822.1406,538.125 Q821.1563,537.625 820.4688,536.5547 Q819.7813,535.4844 819.7813,534.2031 L819.7813,533.0469 Q819.7813,531.7188 820.3984,530.5703 Q821.0156,529.4219 822.1094,528.8047 Q823.2031,528.1875 824.4375,528.1875 Q825.1719,528.1875 825.8203,528.3516 Q826.4688,528.5156 827.0156,528.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="844.75" y="537.9102">TipoSeriacao1</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="639" x2="1098" y1="549" y2="549"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="241" x="644" y="564.4189">-ArrayList &lt;Candidatura&gt; candidaturasDoAnuncio</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="639" x2="1098" y1="570.8359" y2="570.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="449" x="644" y="586.2549">+executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList &lt;Candidatura&gt;</text>
+        <!--class TipoSeriacao2-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="75.6719" style="stroke: #A80036; stroke-width: 1.5;" width="461" x="638" y="406"/>
+        <ellipse cx="824.25" cy="422" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M827.0156,417.875 Q827.1719,417.6563 827.3594,417.5469 Q827.5469,417.4375 827.7656,417.4375 Q828.1406,417.4375 828.375,417.6953 Q828.6094,417.9531 828.6094,418.5625 L828.6094,420.0156 Q828.6094,420.625 828.375,420.8906 Q828.1406,421.1563 827.7656,421.1563 Q827.4219,421.1563 827.2188,420.9531 Q827.0156,420.7656 826.9063,420.25 Q826.8594,419.8906 826.6719,419.7031 Q826.3438,419.3281 825.7344,419.1094 Q825.125,418.8906 824.5,418.8906 Q823.7344,418.8906 823.1016,419.2188 Q822.4688,419.5469 821.9766,420.2969 Q821.4844,421.0469 821.4844,422.0781 L821.4844,423.1719 Q821.4844,424.4063 822.375,425.2266 Q823.2656,426.0469 824.8594,426.0469 Q825.7969,426.0469 826.4531,425.7969 Q826.8438,425.6406 827.2656,425.2031 Q827.5313,424.9375 827.6797,424.8594 Q827.8281,424.7813 828.0313,424.7813 Q828.3594,424.7813 828.6172,425.0391 Q828.875,425.2969 828.875,425.6406 Q828.875,425.9844 828.5313,426.3906 Q828.0313,426.9688 827.2344,427.2969 Q826.1563,427.75 824.8594,427.75 Q823.3438,427.75 822.1406,427.125 Q821.1563,426.625 820.4688,425.5547 Q819.7813,424.4844 819.7813,423.2031 L819.7813,422.0469 Q819.7813,420.7188 820.3984,419.5703 Q821.0156,418.4219 822.1094,417.8047 Q823.2031,417.1875 824.4375,417.1875 Q825.1719,417.1875 825.8203,417.3516 Q826.4688,417.5156 827.0156,417.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="844.75" y="426.9102">TipoSeriacao2</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="639" x2="1098" y1="438" y2="438"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="241" x="644" y="453.4189">-ArrayList &lt;Candidatura&gt; candidaturasDoAnuncio</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="639" x2="1098" y1="459.8359" y2="459.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="449" x="644" y="475.2549">+executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList &lt;Candidatura&gt;</text>
+        <!--class CandidaturaChainedComparator-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="89.5078" style="stroke: #A80036; stroke-width: 1.5;" width="374" x="681.5" y="139"/>
+        <ellipse cx="773.75" cy="155" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M776.5156,150.875 Q776.6719,150.6563 776.8594,150.5469 Q777.0469,150.4375 777.2656,150.4375 Q777.6406,150.4375 777.875,150.6953 Q778.1094,150.9531 778.1094,151.5625 L778.1094,153.0156 Q778.1094,153.625 777.875,153.8906 Q777.6406,154.1563 777.2656,154.1563 Q776.9219,154.1563 776.7188,153.9531 Q776.5156,153.7656 776.4063,153.25 Q776.3594,152.8906 776.1719,152.7031 Q775.8438,152.3281 775.2344,152.1094 Q774.625,151.8906 774,151.8906 Q773.2344,151.8906 772.6016,152.2188 Q771.9688,152.5469 771.4766,153.2969 Q770.9844,154.0469 770.9844,155.0781 L770.9844,156.1719 Q770.9844,157.4063 771.875,158.2266 Q772.7656,159.0469 774.3594,159.0469 Q775.2969,159.0469 775.9531,158.7969 Q776.3438,158.6406 776.7656,158.2031 Q777.0313,157.9375 777.1797,157.8594 Q777.3281,157.7813 777.5313,157.7813 Q777.8594,157.7813 778.1172,158.0391 Q778.375,158.2969 778.375,158.6406 Q778.375,158.9844 778.0313,159.3906 Q777.5313,159.9688 776.7344,160.2969 Q775.6563,160.75 774.3594,160.75 Q772.8438,160.75 771.6406,160.125 Q770.6563,159.625 769.9688,158.5547 Q769.2813,157.4844 769.2813,156.2031 L769.2813,155.0469 Q769.2813,153.7188 769.8984,152.5703 Q770.5156,151.4219 771.6094,150.8047 Q772.7031,150.1875 773.9375,150.1875 Q774.6719,150.1875 775.3203,150.3516 Q775.9688,150.5156 776.5156,150.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="181" x="794.25" y="159.9102">CandidaturaChainedComparator</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="682.5" x2="1054.5" y1="171" y2="171"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="240" x="687.5" y="186.4189">-List &lt;Comparator&lt;Candidatura&gt;&gt; listComparators</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="682.5" x2="1054.5" y1="192.8359" y2="192.8359"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="362" x="687.5" y="208.2549">+CandidaturaChainedComparator(Comparator&lt;Candidatura&gt;... comparators</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="240" x="687.5" y="222.0908">+compare(c1 : Candidatura, c2 : Candidatura) : int</text>
+        <!--class CandidaturaDataComparator-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="61.8359" style="stroke: #A80036; stroke-width: 1.5;" width="252" x="166" y="202"/>
+        <ellipse cx="208" cy="218" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M210.7656,213.875 Q210.9219,213.6563 211.1094,213.5469 Q211.2969,213.4375 211.5156,213.4375 Q211.8906,213.4375 212.125,213.6953 Q212.3594,213.9531 212.3594,214.5625 L212.3594,216.0156 Q212.3594,216.625 212.125,216.8906 Q211.8906,217.1563 211.5156,217.1563 Q211.1719,217.1563 210.9688,216.9531 Q210.7656,216.7656 210.6563,216.25 Q210.6094,215.8906 210.4219,215.7031 Q210.0938,215.3281 209.4844,215.1094 Q208.875,214.8906 208.25,214.8906 Q207.4844,214.8906 206.8516,215.2188 Q206.2188,215.5469 205.7266,216.2969 Q205.2344,217.0469 205.2344,218.0781 L205.2344,219.1719 Q205.2344,220.4063 206.125,221.2266 Q207.0156,222.0469 208.6094,222.0469 Q209.5469,222.0469 210.2031,221.7969 Q210.5938,221.6406 211.0156,221.2031 Q211.2813,220.9375 211.4297,220.8594 Q211.5781,220.7813 211.7813,220.7813 Q212.1094,220.7813 212.3672,221.0391 Q212.625,221.2969 212.625,221.6406 Q212.625,221.9844 212.2813,222.3906 Q211.7813,222.9688 210.9844,223.2969 Q209.9063,223.75 208.6094,223.75 Q207.0938,223.75 205.8906,223.125 Q204.9063,222.625 204.2188,221.5547 Q203.5313,220.4844 203.5313,219.2031 L203.5313,218.0469 Q203.5313,216.7188 204.1484,215.5703 Q204.7656,214.4219 205.8594,213.8047 Q206.9531,213.1875 208.1875,213.1875 Q208.9219,213.1875 209.5703,213.3516 Q210.2188,213.5156 210.7656,213.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="160" x="228" y="222.9102">CandidaturaDataComparator</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="234" y2="234"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="242" y2="242"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="240" x="172" y="257.4189">+compare(c1 : Candidatura, c2 : Candidatura) : int</text>
+        <!--class CandidaturaDesvioComparator-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="61.8359" style="stroke: #A80036; stroke-width: 1.5;" width="252" x="166" y="299"/>
+        <ellipse cx="202.6" cy="315" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M205.3656,310.875 Q205.5219,310.6563 205.7094,310.5469 Q205.8969,310.4375 206.1156,310.4375 Q206.4906,310.4375 206.725,310.6953 Q206.9594,310.9531 206.9594,311.5625 L206.9594,313.0156 Q206.9594,313.625 206.725,313.8906 Q206.4906,314.1563 206.1156,314.1563 Q205.7719,314.1563 205.5688,313.9531 Q205.3656,313.7656 205.2563,313.25 Q205.2094,312.8906 205.0219,312.7031 Q204.6938,312.3281 204.0844,312.1094 Q203.475,311.8906 202.85,311.8906 Q202.0844,311.8906 201.4516,312.2188 Q200.8188,312.5469 200.3266,313.2969 Q199.8344,314.0469 199.8344,315.0781 L199.8344,316.1719 Q199.8344,317.4063 200.725,318.2266 Q201.6156,319.0469 203.2094,319.0469 Q204.1469,319.0469 204.8031,318.7969 Q205.1938,318.6406 205.6156,318.2031 Q205.8813,317.9375 206.0297,317.8594 Q206.1781,317.7813 206.3813,317.7813 Q206.7094,317.7813 206.9672,318.0391 Q207.225,318.2969 207.225,318.6406 Q207.225,318.9844 206.8813,319.3906 Q206.3813,319.9688 205.5844,320.2969 Q204.5063,320.75 203.2094,320.75 Q201.6938,320.75 200.4906,320.125 Q199.5063,319.625 198.8188,318.5547 Q198.1313,317.4844 198.1313,316.2031 L198.1313,315.0469 Q198.1313,313.7188 198.7484,312.5703 Q199.3656,311.4219 200.4594,310.8047 Q201.5531,310.1875 202.7875,310.1875 Q203.5219,310.1875 204.1703,310.3516 Q204.8188,310.5156 205.3656,310.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="172" x="221.4" y="319.9102">CandidaturaDesvioComparator</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="331" y2="331"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="339" y2="339"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="240" x="172" y="354.4189">+compare(c1 : Candidatura, c2 : Candidatura) : int</text>
+        <!--class CandidaturaMediaComparator-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="61.8359" style="stroke: #A80036; stroke-width: 1.5;" width="252" x="166" y="8"/>
+        <ellipse cx="204.85" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M207.6156,19.875 Q207.7719,19.6563 207.9594,19.5469 Q208.1469,19.4375 208.3656,19.4375 Q208.7406,19.4375 208.975,19.6953 Q209.2094,19.9531 209.2094,20.5625 L209.2094,22.0156 Q209.2094,22.625 208.975,22.8906 Q208.7406,23.1563 208.3656,23.1563 Q208.0219,23.1563 207.8188,22.9531 Q207.6156,22.7656 207.5063,22.25 Q207.4594,21.8906 207.2719,21.7031 Q206.9438,21.3281 206.3344,21.1094 Q205.725,20.8906 205.1,20.8906 Q204.3344,20.8906 203.7016,21.2188 Q203.0688,21.5469 202.5766,22.2969 Q202.0844,23.0469 202.0844,24.0781 L202.0844,25.1719 Q202.0844,26.4063 202.975,27.2266 Q203.8656,28.0469 205.4594,28.0469 Q206.3969,28.0469 207.0531,27.7969 Q207.4438,27.6406 207.8656,27.2031 Q208.1313,26.9375 208.2797,26.8594 Q208.4281,26.7813 208.6313,26.7813 Q208.9594,26.7813 209.2172,27.0391 Q209.475,27.2969 209.475,27.6406 Q209.475,27.9844 209.1313,28.3906 Q208.6313,28.9688 207.8344,29.2969 Q206.7563,29.75 205.4594,29.75 Q203.9438,29.75 202.7406,29.125 Q201.7563,28.625 201.0688,27.5547 Q200.3813,26.4844 200.3813,25.2031 L200.3813,24.0469 Q200.3813,22.7188 200.9984,21.5703 Q201.6156,20.4219 202.7094,19.8047 Q203.8031,19.1875 205.0375,19.1875 Q205.7719,19.1875 206.4203,19.3516 Q207.0688,19.5156 207.6156,19.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="167" x="224.15" y="28.9102">CandidaturaMediaComparator</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="40" y2="40"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="48" y2="48"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="240" x="172" y="63.4189">+compare(c1 : Candidatura, c2 : Candidatura) : int</text>
+        <!--class CandidaturaValorComparator-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="61.8359" style="stroke: #A80036; stroke-width: 1.5;" width="252" x="166" y="105"/>
+        <ellipse cx="207.1" cy="121" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M209.8656,116.875 Q210.0219,116.6563 210.2094,116.5469 Q210.3969,116.4375 210.6156,116.4375 Q210.9906,116.4375 211.225,116.6953 Q211.4594,116.9531 211.4594,117.5625 L211.4594,119.0156 Q211.4594,119.625 211.225,119.8906 Q210.9906,120.1563 210.6156,120.1563 Q210.2719,120.1563 210.0688,119.9531 Q209.8656,119.7656 209.7563,119.25 Q209.7094,118.8906 209.5219,118.7031 Q209.1938,118.3281 208.5844,118.1094 Q207.975,117.8906 207.35,117.8906 Q206.5844,117.8906 205.9516,118.2188 Q205.3188,118.5469 204.8266,119.2969 Q204.3344,120.0469 204.3344,121.0781 L204.3344,122.1719 Q204.3344,123.4063 205.225,124.2266 Q206.1156,125.0469 207.7094,125.0469 Q208.6469,125.0469 209.3031,124.7969 Q209.6938,124.6406 210.1156,124.2031 Q210.3813,123.9375 210.5297,123.8594 Q210.6781,123.7813 210.8813,123.7813 Q211.2094,123.7813 211.4672,124.0391 Q211.725,124.2969 211.725,124.6406 Q211.725,124.9844 211.3813,125.3906 Q210.8813,125.9688 210.0844,126.2969 Q209.0063,126.75 207.7094,126.75 Q206.1938,126.75 204.9906,126.125 Q204.0063,125.625 203.3188,124.5547 Q202.6313,123.4844 202.6313,122.2031 L202.6313,121.0469 Q202.6313,119.7188 203.2484,118.5703 Q203.8656,117.4219 204.9594,116.8047 Q206.0531,116.1875 207.2875,116.1875 Q208.0219,116.1875 208.6703,116.3516 Q209.3188,116.5156 209.8656,116.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="162" x="226.9" y="125.9102">CandidaturaValorComparator</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="137" y2="137"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="417" y1="145" y2="145"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="240" x="172" y="160.4189">+compare(c1 : Candidatura, c2 : Candidatura) : int</text>
+        <!--class ListaCandidaturaSeriadasUI-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="189" x="2007" y="420"/>
+        <ellipse cx="2022" cy="436" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2024.7656,431.875 Q2024.9219,431.6563 2025.1094,431.5469 Q2025.2969,431.4375 2025.5156,431.4375 Q2025.8906,431.4375 2026.125,431.6953 Q2026.3594,431.9531 2026.3594,432.5625 L2026.3594,434.0156 Q2026.3594,434.625 2026.125,434.8906 Q2025.8906,435.1563 2025.5156,435.1563 Q2025.1719,435.1563 2024.9688,434.9531 Q2024.7656,434.7656 2024.6563,434.25 Q2024.6094,433.8906 2024.4219,433.7031 Q2024.0938,433.3281 2023.4844,433.1094 Q2022.875,432.8906 2022.25,432.8906 Q2021.4844,432.8906 2020.8516,433.2188 Q2020.2188,433.5469 2019.7266,434.2969 Q2019.2344,435.0469 2019.2344,436.0781 L2019.2344,437.1719 Q2019.2344,438.4063 2020.125,439.2266 Q2021.0156,440.0469 2022.6094,440.0469 Q2023.5469,440.0469 2024.2031,439.7969 Q2024.5938,439.6406 2025.0156,439.2031 Q2025.2813,438.9375 2025.4297,438.8594 Q2025.5781,438.7813 2025.7813,438.7813 Q2026.1094,438.7813 2026.3672,439.0391 Q2026.625,439.2969 2026.625,439.6406 Q2026.625,439.9844 2026.2813,440.3906 Q2025.7813,440.9688 2024.9844,441.2969 Q2023.9063,441.75 2022.6094,441.75 Q2021.0938,441.75 2019.8906,441.125 Q2018.9063,440.625 2018.2188,439.5547 Q2017.5313,438.4844 2017.5313,437.2031 L2017.5313,436.0469 Q2017.5313,434.7188 2018.1484,433.5703 Q2018.7656,432.4219 2019.8594,431.8047 Q2020.9531,431.1875 2022.1875,431.1875 Q2022.9219,431.1875 2023.5703,431.3516 Q2024.2188,431.5156 2024.7656,431.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="157" x="2036" y="440.9102">ListaCandidaturaSeriadasUI</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2008" x2="2195" y1="452" y2="452"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2008" x2="2195" y1="460" y2="460"/>
+        <!--class ListaSeriacoesUI-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="127" x="2425" y="377"/>
+        <ellipse cx="2440" cy="393" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2442.7656,388.875 Q2442.9219,388.6563 2443.1094,388.5469 Q2443.2969,388.4375 2443.5156,388.4375 Q2443.8906,388.4375 2444.125,388.6953 Q2444.3594,388.9531 2444.3594,389.5625 L2444.3594,391.0156 Q2444.3594,391.625 2444.125,391.8906 Q2443.8906,392.1563 2443.5156,392.1563 Q2443.1719,392.1563 2442.9688,391.9531 Q2442.7656,391.7656 2442.6563,391.25 Q2442.6094,390.8906 2442.4219,390.7031 Q2442.0938,390.3281 2441.4844,390.1094 Q2440.875,389.8906 2440.25,389.8906 Q2439.4844,389.8906 2438.8516,390.2188 Q2438.2188,390.5469 2437.7266,391.2969 Q2437.2344,392.0469 2437.2344,393.0781 L2437.2344,394.1719 Q2437.2344,395.4063 2438.125,396.2266 Q2439.0156,397.0469 2440.6094,397.0469 Q2441.5469,397.0469 2442.2031,396.7969 Q2442.5938,396.6406 2443.0156,396.2031 Q2443.2813,395.9375 2443.4297,395.8594 Q2443.5781,395.7813 2443.7813,395.7813 Q2444.1094,395.7813 2444.3672,396.0391 Q2444.625,396.2969 2444.625,396.6406 Q2444.625,396.9844 2444.2813,397.3906 Q2443.7813,397.9688 2442.9844,398.2969 Q2441.9063,398.75 2440.6094,398.75 Q2439.0938,398.75 2437.8906,398.125 Q2436.9063,397.625 2436.2188,396.5547 Q2435.5313,395.4844 2435.5313,394.2031 L2435.5313,393.0469 Q2435.5313,391.7188 2436.1484,390.5703 Q2436.7656,389.4219 2437.8594,388.8047 Q2438.9531,388.1875 2440.1875,388.1875 Q2440.9219,388.1875 2441.5703,388.3516 Q2442.2188,388.5156 2442.7656,388.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="2454" y="397.9102">ListaSeriacoesUI</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2426" x2="2551" y1="409" y2="409"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2426" x2="2551" y1="417" y2="417"/>
+        <!--class ListaCandidaturasUI-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="2612" y="377"/>
+        <ellipse cx="2627" cy="393" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2629.7656,388.875 Q2629.9219,388.6563 2630.1094,388.5469 Q2630.2969,388.4375 2630.5156,388.4375 Q2630.8906,388.4375 2631.125,388.6953 Q2631.3594,388.9531 2631.3594,389.5625 L2631.3594,391.0156 Q2631.3594,391.625 2631.125,391.8906 Q2630.8906,392.1563 2630.5156,392.1563 Q2630.1719,392.1563 2629.9688,391.9531 Q2629.7656,391.7656 2629.6563,391.25 Q2629.6094,390.8906 2629.4219,390.7031 Q2629.0938,390.3281 2628.4844,390.1094 Q2627.875,389.8906 2627.25,389.8906 Q2626.4844,389.8906 2625.8516,390.2188 Q2625.2188,390.5469 2624.7266,391.2969 Q2624.2344,392.0469 2624.2344,393.0781 L2624.2344,394.1719 Q2624.2344,395.4063 2625.125,396.2266 Q2626.0156,397.0469 2627.6094,397.0469 Q2628.5469,397.0469 2629.2031,396.7969 Q2629.5938,396.6406 2630.0156,396.2031 Q2630.2813,395.9375 2630.4297,395.8594 Q2630.5781,395.7813 2630.7813,395.7813 Q2631.1094,395.7813 2631.3672,396.0391 Q2631.625,396.2969 2631.625,396.6406 Q2631.625,396.9844 2631.2813,397.3906 Q2630.7813,397.9688 2629.9844,398.2969 Q2628.9063,398.75 2627.6094,398.75 Q2626.0938,398.75 2624.8906,398.125 Q2623.9063,397.625 2623.2188,396.5547 Q2622.5313,395.4844 2622.5313,394.2031 L2622.5313,393.0469 Q2622.5313,391.7188 2623.1484,390.5703 Q2623.7656,389.4219 2624.8594,388.8047 Q2625.9531,388.1875 2627.1875,388.1875 Q2627.9219,388.1875 2628.5703,388.3516 Q2629.2188,388.5156 2629.7656,388.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="2641" y="397.9102">ListaCandidaturasUI</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2613" x2="2757" y1="409" y2="409"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2613" x2="2757" y1="417" y2="417"/>
+        <!--class ListaAnunciosUI-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="122" x="2818" y="687"/>
+        <ellipse cx="2833" cy="703" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2835.7656,698.875 Q2835.9219,698.6563 2836.1094,698.5469 Q2836.2969,698.4375 2836.5156,698.4375 Q2836.8906,698.4375 2837.125,698.6953 Q2837.3594,698.9531 2837.3594,699.5625 L2837.3594,701.0156 Q2837.3594,701.625 2837.125,701.8906 Q2836.8906,702.1563 2836.5156,702.1563 Q2836.1719,702.1563 2835.9688,701.9531 Q2835.7656,701.7656 2835.6563,701.25 Q2835.6094,700.8906 2835.4219,700.7031 Q2835.0938,700.3281 2834.4844,700.1094 Q2833.875,699.8906 2833.25,699.8906 Q2832.4844,699.8906 2831.8516,700.2188 Q2831.2188,700.5469 2830.7266,701.2969 Q2830.2344,702.0469 2830.2344,703.0781 L2830.2344,704.1719 Q2830.2344,705.4063 2831.125,706.2266 Q2832.0156,707.0469 2833.6094,707.0469 Q2834.5469,707.0469 2835.2031,706.7969 Q2835.5938,706.6406 2836.0156,706.2031 Q2836.2813,705.9375 2836.4297,705.8594 Q2836.5781,705.7813 2836.7813,705.7813 Q2837.1094,705.7813 2837.3672,706.0391 Q2837.625,706.2969 2837.625,706.6406 Q2837.625,706.9844 2837.2813,707.3906 Q2836.7813,707.9688 2835.9844,708.2969 Q2834.9063,708.75 2833.6094,708.75 Q2832.0938,708.75 2830.8906,708.125 Q2829.9063,707.625 2829.2188,706.5547 Q2828.5313,705.4844 2828.5313,704.2031 L2828.5313,703.0469 Q2828.5313,701.7188 2829.1484,700.5703 Q2829.7656,699.4219 2830.8594,698.8047 Q2831.9531,698.1875 2833.1875,698.1875 Q2833.9219,698.1875 2834.5703,698.3516 Q2835.2188,698.5156 2835.7656,698.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="90" x="2847" y="707.9102">ListaAnunciosUI</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2819" x2="2939" y1="719" y2="719"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="2819" x2="2939" y1="727" y2="727"/>
+        <!--class PaginaInicialUI-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="3000" y="758"/>
+        <ellipse cx="3015" cy="774" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3017.7656,769.875 Q3017.9219,769.6563 3018.1094,769.5469 Q3018.2969,769.4375 3018.5156,769.4375 Q3018.8906,769.4375 3019.125,769.6953 Q3019.3594,769.9531 3019.3594,770.5625 L3019.3594,772.0156 Q3019.3594,772.625 3019.125,772.8906 Q3018.8906,773.1563 3018.5156,773.1563 Q3018.1719,773.1563 3017.9688,772.9531 Q3017.7656,772.7656 3017.6563,772.25 Q3017.6094,771.8906 3017.4219,771.7031 Q3017.0938,771.3281 3016.4844,771.1094 Q3015.875,770.8906 3015.25,770.8906 Q3014.4844,770.8906 3013.8516,771.2188 Q3013.2188,771.5469 3012.7266,772.2969 Q3012.2344,773.0469 3012.2344,774.0781 L3012.2344,775.1719 Q3012.2344,776.4063 3013.125,777.2266 Q3014.0156,778.0469 3015.6094,778.0469 Q3016.5469,778.0469 3017.2031,777.7969 Q3017.5938,777.6406 3018.0156,777.2031 Q3018.2813,776.9375 3018.4297,776.8594 Q3018.5781,776.7813 3018.7813,776.7813 Q3019.1094,776.7813 3019.3672,777.0391 Q3019.625,777.2969 3019.625,777.6406 Q3019.625,777.9844 3019.2813,778.3906 Q3018.7813,778.9688 3017.9844,779.2969 Q3016.9063,779.75 3015.6094,779.75 Q3014.0938,779.75 3012.8906,779.125 Q3011.9063,778.625 3011.2188,777.5547 Q3010.5313,776.4844 3010.5313,775.2031 L3010.5313,774.0469 Q3010.5313,772.7188 3011.1484,771.5703 Q3011.7656,770.4219 3012.8594,769.8047 Q3013.9531,769.1875 3015.1875,769.1875 Q3015.9219,769.1875 3016.5703,769.3516 Q3017.2188,769.5156 3017.7656,769.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="3029" y="778.9102">PaginaInicialUI</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3001" x2="3114" y1="790" y2="790"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3001" x2="3114" y1="798" y2="798"/>
+        <!--class MainApp-->
+        <rect fill="#FEFECE" filter="url(#fjgc27emug3qs)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="3175" y="852"/>
+        <ellipse cx="3190" cy="868" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3192.7656,863.875 Q3192.9219,863.6563 3193.1094,863.5469 Q3193.2969,863.4375 3193.5156,863.4375 Q3193.8906,863.4375 3194.125,863.6953 Q3194.3594,863.9531 3194.3594,864.5625 L3194.3594,866.0156 Q3194.3594,866.625 3194.125,866.8906 Q3193.8906,867.1563 3193.5156,867.1563 Q3193.1719,867.1563 3192.9688,866.9531 Q3192.7656,866.7656 3192.6563,866.25 Q3192.6094,865.8906 3192.4219,865.7031 Q3192.0938,865.3281 3191.4844,865.1094 Q3190.875,864.8906 3190.25,864.8906 Q3189.4844,864.8906 3188.8516,865.2188 Q3188.2188,865.5469 3187.7266,866.2969 Q3187.2344,867.0469 3187.2344,868.0781 L3187.2344,869.1719 Q3187.2344,870.4063 3188.125,871.2266 Q3189.0156,872.0469 3190.6094,872.0469 Q3191.5469,872.0469 3192.2031,871.7969 Q3192.5938,871.6406 3193.0156,871.2031 Q3193.2813,870.9375 3193.4297,870.8594 Q3193.5781,870.7813 3193.7813,870.7813 Q3194.1094,870.7813 3194.3672,871.0391 Q3194.625,871.2969 3194.625,871.6406 Q3194.625,871.9844 3194.2813,872.3906 Q3193.7813,872.9688 3192.9844,873.2969 Q3191.9063,873.75 3190.6094,873.75 Q3189.0938,873.75 3187.8906,873.125 Q3186.9063,872.625 3186.2188,871.5547 Q3185.5313,870.4844 3185.5313,869.2031 L3185.5313,868.0469 Q3185.5313,866.7188 3186.1484,865.5703 Q3186.7656,864.4219 3187.8594,863.8047 Q3188.9531,863.1875 3190.1875,863.1875 Q3190.9219,863.1875 3191.5703,863.3516 Q3192.2188,863.5156 3192.7656,863.875 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="3204" y="872.9102">MainApp</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3176" x2="3253" y1="884" y2="884"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="3176" x2="3253" y1="892" y2="892"/>
+        <path d="M418.012,222.34 C491.17,216.1 585.217,208.08 668.36,200.98 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="681.34,199.88,675.022,196.404,669.3833,200.899,675.7013,204.3751,681.34,199.88" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M418.29,315.59 C468.559,308.08 526.641,297.21 578,282 C605.867,273.75 610.764,266.14 638,256 C659.034,248.17 681.353,240.45 703.49,233.14 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="716.124,229.01,709.1778,227.0733,704.7185,232.7402,711.6646,234.6769,716.124,229.01" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M418.351,56.39 C468.367,64.41 526.253,75.05 578,88 C629.153,100.8 684.315,118.17 732.627,134.62 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="745.081,138.89,740.702,133.1607,733.7292,134.9993,738.1082,140.7286,745.081,138.89" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M418.012,146.44 C491.17,152.56 585.217,160.41 668.36,167.36 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="681.34,168.45,675.694,163.9642,669.3817,167.4506,675.0277,171.9364,681.34,168.45" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1074.46,516.96 C1141.26,504.56 1215.03,490.86 1280.44,478.72 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="1279.51,471.77,1300.45,475.01,1282.07,485.54,1279.51,471.77" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1099.42,444 C1139.13,444 1180.56,444 1220.69,444 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="1220.9,437,1240.9,444,1220.9,451,1220.9,437" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1696.41,444 C1797.83,444 1912.52,444 1993.74,444 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="2006.99,444,2000.99,440,1994.99,444,2000.99,448,2006.99,444" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M973.322,229.14 C1089.74,279.76 1276.27,360.86 1383.78,407.6 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1395.85,412.85,1391.9422,406.7895,1384.8449,408.0658,1388.7527,414.1262,1395.85,412.85" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2196.19,433.54 C2259.84,426.43 2343.27,417.11 2404.53,410.27 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2404.14,403.27,2424.79,408,2405.69,417.18,2404.14,403.27" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2552.11,401 C2564.72,401 2578.23,401 2591.61,401 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2591.69,394,2611.69,401,2591.69,408,2591.69,394" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2700.91,425.07 C2733.53,477.75 2811.61,603.8 2852.32,669.53 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2858.39,666.05,2862.97,686.73,2846.49,673.42,2858.39,666.05" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2939.75,735.04 C2952.94,740.34 2967.08,746.03 2980.8,751.55 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="2983.85,745.23,2999.79,759.19,2978.62,758.22,2983.85,745.23" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3098.42,806.21 C3116.41,817.12 3137.97,830.19 3157.54,842.061 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="3161.32,836.168,3174.79,852.524,3154.06,848.139,3161.32,836.168" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3174.99,886.636 C3112.9,893 2986.82,893 2880,893 C1467.5,893 1467.5,893 1467.5,893 C1169.44,893 828.837,893 591.449,889.835 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="578.097,889.652,584.0419,893.7334,590.0959,889.8155,584.1509,885.7341,578.097,889.652" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M3174.99,864.738 C3112.9,858 2986.82,858 2880,858 C1467.5,858 1467.5,858 1467.5,858 C1169.44,858 828.837,858 591.449,861.351 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="578.097,861.545,584.1544,865.4575,590.0957,861.3709,584.0383,857.4584,578.097,861.545" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1034.89,1222.761 C1079.01,1233.903 1128.02,1246.278 1176.74,1258.58 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1189.45,1261.79,1184.6131,1256.4417,1177.8159,1258.8495,1182.6528,1264.1978,1189.45,1261.79" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1034.89,1163.3 C1134.88,1152.598 1259.98,1139.209 1349.9,1129.586 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1362.9,1128.195,1356.5078,1124.8574,1350.9684,1129.4741,1357.3606,1132.8118,1362.9,1128.195" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1041.07,1770.2993 C1235.11,1803.7508 1553.24,1827.8914 1778,1690 C1914.83,1606.055 1998.94,1441.271 2046.81,1310.717 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="2051.32,1298.193,2045.5209,1302.479,2047.2467,1309.4805,2053.0459,1305.1945,2051.32,1298.193" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1041.26,1688.054 C1074.37,1679.583 1110.04,1670.458 1146.14,1661.221 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1158.92,1657.95,1152.1147,1655.565,1147.2958,1660.9296,1154.1011,1663.3145,1158.92,1657.95" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1000.734,1426.446 C1052.73,1415.925 1114.74,1403.378 1176.31,1390.921 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1189.43,1388.264,1182.7573,1385.53,1177.6672,1390.6379,1184.3399,1393.3719,1189.43,1388.264" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1000.734,1480.651 C1044.25,1489.82 1094.77,1500.465 1146.18,1511.297 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1158.91,1513.979,1153.8658,1508.8258,1147.1689,1511.5,1152.2131,1516.6532,1158.91,1513.979" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1574.05,1117.828 C1642.65,1118.372 1735.81,1119.11 1824.7,1119.815 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1837.78,1119.918,1831.8109,1115.872,1825.7804,1119.8257,1831.7494,1123.8717,1837.78,1119.918" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M578.095,1029.176 C598.355,1039.969 618.48,1050.663 638,1061 C655.031,1070.018 672.792,1079.381 690.562,1088.719 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="702.233,1094.848,698.7809,1088.5169,691.6091,1089.2683,695.0612,1095.5995,702.233,1094.848" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M381.361,1163.281 C437.094,1308.686 520.979,1480.313 638,1605 C651.936,1619.849 668.006,1633.385 685.039,1645.614 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="695.759,1653.06,693.1128,1646.352,685.903,1646.2146,688.5492,1652.9226,695.759,1653.06" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M578.091,974.282 C598.259,979.975 618.371,985.289 638,990 C770.838,1021.879 1154.2,1075.206 1349.75,1101.449 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1362.64,1103.176,1357.22,1098.4196,1350.7448,1101.5933,1356.1649,1106.3497,1362.64,1103.176" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M578.113,912.479 C598.369,914.781 618.487,916.98 638,919 C1143.68,971.339 1280.17,909.957 1778,1013 C1793.53,1016.214 1809.34,1019.951 1825.21,1024.067 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1837.95,1027.446,1833.1743,1022.043,1826.3501,1024.3733,1831.1258,1029.7763,1837.95,1027.446" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M462.87,1163.146 C512.962,1231.588 572.22,1300.048 638,1353 C663.554,1373.571 693.991,1390.705 724.209,1404.64 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="736.219,1410.021,732.379,1403.9174,725.2679,1405.1144,729.108,1411.2181,736.219,1410.021" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M476.145,1163.15 C522.531,1214.571 576.832,1261.442 638,1292 C729.777,1337.849 975.859,1345.084 1176.33,1342.467 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1189.46,1342.281,1183.4035,1338.3671,1177.4612,1342.4524,1183.5178,1346.3663,1189.46,1342.281" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M367.761,1163.414 C419.667,1302.522 504.231,1457.558 638,1543 C720.574,1595.742 949.368,1602.62 1145.8,1597.472 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1158.99,1597.107,1152.8824,1593.2733,1146.9945,1597.4367,1153.1021,1601.2703,1158.99,1597.107" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M462.065,588.73 C501.029,520.47 541.676,447.55 578,379 C606.478,325.25 591.892,295.67 638,256 C647.734,247.63 658.441,240.22 669.746,233.68 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="681.237,227.42,674.0546,226.7772,670.6988,233.1599,677.8812,233.8027,681.237,227.42" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2006.86,459.61 C1686.7,513 654.464,685.37 638,691 C622.244,696.39 606.343,702.45 590.469,708.99 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="578.339,714.08,585.4197,715.4451,589.4032,709.4341,582.3224,708.069,578.339,714.08" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2424.93,392.98 C2139.14,357.49 958.166,223.45 638,389 C556.417,431.19 489.968,502.54 437.954,577.82 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="430.385,588.95,437.0673,586.2395,437.1354,579.0287,430.4531,581.7392,430.385,588.95" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2613.34,376.92 C2504.83,342.15 2290.05,282 2102.5,282 C1467.5,282 1467.5,282 1467.5,282 C1282.94,282 797.126,229.51 638,323 C609.557,339.71 535.444,455.94 463.167,577.55 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="456.405,588.96,462.9055,585.8386,462.5244,578.6375,456.0239,581.759,456.405,588.96" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2817.77,712.51 C2741.41,714.28 2605.69,717 2489.5,717 C1467.5,717 1467.5,717 1467.5,717 C1098.29,717 1000.795,693.48 638,762 C622.471,764.93 606.677,768.38 590.82,772.22 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="578.092,775.38,584.8783,777.8184,589.7393,772.4919,582.9529,770.0535,578.092,775.38" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M2999.7,783.49 C2926.99,785.27 2797.13,788 2686,788 C1467.5,788 1467.5,788 1467.5,788 C1098.29,788 1005.744,800.15 638,833 C622.735,834.364 607.105,835.88 591.331,837.505 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="578.052,838.894,584.4357,842.2479,589.9869,837.6453,583.6032,834.2913,578.052,838.894" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <!--
+@startuml
+skinparam classAttributeIconSize 0
+left to right direction
+
+class SeriarAnunciosController {
+-String FICHEIRO_ANUNCIO
+-String FICHEIRO_CANDIDATURA
+-String FICHEIRO_CT_TAREFA
+-String FICHEIRO_CT_FREELANCER
+-String FICHEIRO_FREELANCER
+-String FICHEIRO_TAREFA
+-String FICHEIRO_CT
+-anuncios : ArrayList <Anuncio>
+-competenciasTecnicas : ArrayList <CompetenciaTecnica>
+-tarefas : ArrayList <Tarefa>
+-competenciasTecnicasFreelancers : ArrayList <CompetenciasTecnicasFreelancer>
+-competenciasTecnicasTarefas : ArrayList <CompetenciasTecnicasTarefa>
+-candidaturas : ArrayList <Candidatura>
+-freelancers : ArrayList <Freelancer>
++SeriarAnuncioController()
++carregarInformacao() : void
++pesquisaTarefa(codigo : String) : Tarefa
++pesquisaAnuncio(codigo : String) : Anuncio
++pesquisaFreelancer(nif : String) : Freelancer
++pesquisaCompetenciaTecnica(codigo : String) : CompetenciaTecnica
++pesquisaCompetenciasTecnicaTarefa(tarefa : Tarefa) : ArrayList <CompetenciasTecnicasTarefa>
++pesquisaCompetenciasTecnicaFreelancer(freelancer : Freelancer) : ArrayList <CompetenciasTecnicasFreelancer>
++lerCompetenciasTecnicas() : void
++lerFreelancers() : void
++lerTarefas() : void
++lerAnuncios() : void
++lerCandidaturas() : void
++lerCompetenciasTecnicasFreelancer() : void
++lerCompetenciasTecnicasTarefa() : void
++getCompetenciasTecnicas() : ArrayList <CompetenciaTecnica>
++getCompetenciasTecnicasTarefas() : ArrayList <CompetenciasTecnicasTarefa>
++getCompetenciasTecnicasFreelancers() : ArrayList <CompetenciasTecnicasFreelancer>
++getAnuncios() : ArrayList <Anuncio>
++getTarefas() : ArrayList <Tarefa>
++getCandidaturas() : ArrayList <Candidatura>
++getFreelancers() : ArrayList <Freelancer>
++getCompetenciasTecnicasDaTarefa(tarefa : Tarefa) : ArrayList <CompetenciaTecnica>
++getCandidaturasAnuncio(codigo : String) : ArrayList <Candidatura>
+}
+
+class Anuncio {
+-String codigo
+-Tarefa tarefa
++Anuncio(codigo : String, tarefa : Tarefa)
++getCodigo() : String
++setCodigo(codigo : String) : void
++getTarefa() : Tarefa
++setTarefa(tarefa : Tarefa) : void
++getNomeTarefa() : String
++toString() : String
+}
+
+class Candidatura {
+-Freelancer freelancer
+-Anuncio anuncio
+-Date dataCandidatura
+-Double valorPretendido
+-Double media
+-Double desvio
++Candidatura(freelancer : Freelancer, anuncio : Anuncio, dataCandidatura : Date, valorPretendido : Double)
++getFreelancer() : Freelancer 
++getNomeFreelancer() : String
++setFreelancer(freelancer : Freelancer) : void
++getAnuncio() : Anuncio
++getCodigoAnuncio() : String
++setAnuncio(anuncio : Anuncio) : void
++getDataCandidatura() : Date
++setDataCandidatura(dataCandidatura : Date) : void
++getValorPretendido() : Double
++setValorPretendido(valorPretendido : Double) : void
++getMedia() : Double
++setMedia(media : Double) : void
++getDesvio() : Double
++setDesvio(desvio : Double) : void
++toString() : String
+}
+
+class CompetenciaTecnica {
+-String codigo
+-String nome
++CompetenciaTecnica(codigo : String, nome : String) 
++getCodigo() : String
++setCodigo(codigo : String) : void
++getNome() : String
++setNome(nome : String) : void
+}
+
+class CompetenciasTecnicasFreelancer {
+-Freelancer freelancer
+-CompetenciaTecnica competenciaTecnica
+-Int grauProficiencia 
++CompetenciasTecnicasFreelancer(freelancer : Freelancer, competenciaTecnica : CompetenciaTecnica, grauProficiencia : int)
++getFreelancer() : Freelancer
++setFreelancer(freelancer : Freelancer) : void
++getCompetenciaTecnica() : CompetenciaTecnica
++setCompetenciaTecnica(competenciaTecnica : CompetenciaTecnica) : void
++getGrauProficiencia() : int
++setGrauProficiencia(grauProficiencia : int) : void
+}
+
+class CompetenciasTecnicasTarefa {
+-Tarefa tarefa
+-CompetenciaTecnica competenciaTecnica
+-Boolean obrigatoria
++CompetenciasTecnicasTarefa(tarefa : Tarefa, competenciaTecnica : CompetenciaTecnica, obrigatoria : boolean)
++getTarefa() : Tarefa
++setTarefa(tarefa : Tarefa) : void
++getCompetenciaTecnica() : CompetenciaTecnica
++setCompetenciaTecnica(competenciaTecnica : CompetenciaTecnica) : void
++isObrigatoria() : Boolean
++setObrigatoria(obrigatoria : Boolean) : void
+}
+
+class Freelancer {
+-String nome
+-String nif
+-String telefone
+-String email
++Freelancer(nome : String, nif : String, telefone : String, email : String)
++getNome() : String
++setNome(nome : String) : void
++getNif() : String
++setNif(nif : String) : void
++getTelefone() : String
++setTelefone(telefone : String) : void
+}
+
+class Tarefa {
+-String codigo
+-String designacao
+-String categoria
++Tarefa(codigo : String, designacao : String, categoria : Categoria)
++getCodigo() : String
++setCodigo(codigo : String) : void
++getDesignacao() : String
++setDesignacao(designacao : String) : void
++getCategoria() : String
++setCategoria(categoria : String) : void
+}
+
+interface TipoSeriacao {
+executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList <Candidatura>
+}
+
+class TipoSeriacao1 {
+-ArrayList <Candidatura> candidaturasDoAnuncio
++executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList <Candidatura>
+}
+
+class TipoSeriacao2 {
+-ArrayList <Candidatura> candidaturasDoAnuncio
++executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList <Candidatura>
+}
+
+class CandidaturaChainedComparator {
+-List <Comparator<Candidatura>> listComparators
++CandidaturaChainedComparator(Comparator<Candidatura>... comparators
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+
+class CandidaturaDataComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+class CandidaturaDesvioComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+class CandidaturaMediaComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+class CandidaturaValorComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+
+CandidaturaDataComparator  - -* CandidaturaChainedComparator 
+CandidaturaDesvioComparator  - -* CandidaturaChainedComparator 
+CandidaturaMediaComparator  - -* CandidaturaChainedComparator 
+CandidaturaValorComparator  - -* CandidaturaChainedComparator 
+
+TipoSeriacao1 ..|> TipoSeriacao
+TipoSeriacao2 ..|> TipoSeriacao
+
+TipoSeriacao - -* ListaCandidaturaSeriadasUI
+
+CandidaturaChainedComparator - -* TipoSeriacao
+
+ListaCandidaturaSeriadasUI - -|> ListaSeriacoesUI
+ListaSeriacoesUI - -|> ListaCandidaturasUI
+ListaCandidaturasUI - -|> ListaAnunciosUI
+ListaAnunciosUI - -|> PaginaInicialUI
+PaginaInicialUI - -|> MainApp
+
+MainApp - -* SeriarAnunciosController 
+
+Tarefa - -* CompetenciasTecnicasTarefa
+Tarefa - -* Anuncio
+
+Freelancer - -* Candidatura
+Freelancer - -* CompetenciasTecnicasFreelancer
+
+CompetenciaTecnica - -* CompetenciasTecnicasTarefa
+CompetenciaTecnica - -* CompetenciasTecnicasFreelancer
+
+Anuncio - -* Candidatura
+
+SeriarAnunciosController - -* Tarefa
+SeriarAnunciosController - -* Freelancer
+SeriarAnunciosController - -* Anuncio
+SeriarAnunciosController - -* Candidatura
+SeriarAnunciosController - -* CompetenciaTecnica
+SeriarAnunciosController - -* CompetenciasTecnicasTarefa
+SeriarAnunciosController - -* CompetenciasTecnicasFreelancer
+SeriarAnunciosController - -* CandidaturaChainedComparator
+
+ListaCandidaturaSeriadasUI - -* SeriarAnunciosController
+ListaSeriacoesUI - -* SeriarAnunciosController
+ListaCandidaturasUI - -* SeriarAnunciosController
+ListaAnunciosUI - -* SeriarAnunciosController
+PaginaInicialUI - -* SeriarAnunciosController
+MainApp - -* SeriarAnunciosController
+
+
+
+
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 BST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_241-b07
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+-->
+    </g>
+</svg>

@@ -1,0 +1,229 @@
+@startuml
+skinparam classAttributeIconSize 0
+left to right direction
+
+class SeriarAnunciosController {
+-String FICHEIRO_ANUNCIO
+-String FICHEIRO_CANDIDATURA
+-String FICHEIRO_CT_TAREFA
+-String FICHEIRO_CT_FREELANCER
+-String FICHEIRO_FREELANCER
+-String FICHEIRO_TAREFA
+-String FICHEIRO_CT
+-anuncios : ArrayList <Anuncio>
+-competenciasTecnicas : ArrayList <CompetenciaTecnica>
+-tarefas : ArrayList <Tarefa>
+-competenciasTecnicasFreelancers : ArrayList <CompetenciasTecnicasFreelancer>
+-competenciasTecnicasTarefas : ArrayList <CompetenciasTecnicasTarefa>
+-candidaturas : ArrayList <Candidatura>
+-freelancers : ArrayList <Freelancer>
++SeriarAnuncioController()
++carregarInformacao() : void
++pesquisaTarefa(codigo : String) : Tarefa
++pesquisaAnuncio(codigo : String) : Anuncio
++pesquisaFreelancer(nif : String) : Freelancer
++pesquisaCompetenciaTecnica(codigo : String) : CompetenciaTecnica
++pesquisaCompetenciasTecnicaTarefa(tarefa : Tarefa) : ArrayList <CompetenciasTecnicasTarefa>
++pesquisaCompetenciasTecnicaFreelancer(freelancer : Freelancer) : ArrayList <CompetenciasTecnicasFreelancer>
++lerCompetenciasTecnicas() : void
++lerFreelancers() : void
++lerTarefas() : void
++lerAnuncios() : void
++lerCandidaturas() : void
++lerCompetenciasTecnicasFreelancer() : void
++lerCompetenciasTecnicasTarefa() : void
++getCompetenciasTecnicas() : ArrayList <CompetenciaTecnica>
++getCompetenciasTecnicasTarefas() : ArrayList <CompetenciasTecnicasTarefa>
++getCompetenciasTecnicasFreelancers() : ArrayList <CompetenciasTecnicasFreelancer>
++getAnuncios() : ArrayList <Anuncio>
++getTarefas() : ArrayList <Tarefa>
++getCandidaturas() : ArrayList <Candidatura>
++getFreelancers() : ArrayList <Freelancer>
++getCompetenciasTecnicasDaTarefa(tarefa : Tarefa) : ArrayList <CompetenciaTecnica>
++getCandidaturasAnuncio(codigo : String) : ArrayList <Candidatura>
+}
+
+class Anuncio {
+-String codigo
+-Tarefa tarefa
++Anuncio(codigo : String, tarefa : Tarefa)
++getCodigo() : String
++setCodigo(codigo : String) : void
++getTarefa() : Tarefa
++setTarefa(tarefa : Tarefa) : void
++getNomeTarefa() : String
++toString() : String
+}
+
+class Candidatura {
+-Freelancer freelancer
+-Anuncio anuncio
+-Date dataCandidatura
+-Double valorPretendido
+-Double media
+-Double desvio
++Candidatura(freelancer : Freelancer, anuncio : Anuncio, dataCandidatura : Date, valorPretendido : Double)
++getFreelancer() : Freelancer 
++getNomeFreelancer() : String
++setFreelancer(freelancer : Freelancer) : void
++getAnuncio() : Anuncio
++getCodigoAnuncio() : String
++setAnuncio(anuncio : Anuncio) : void
++getDataCandidatura() : Date
++setDataCandidatura(dataCandidatura : Date) : void
++getValorPretendido() : Double
++setValorPretendido(valorPretendido : Double) : void
++getMedia() : Double
++setMedia(media : Double) : void
++getDesvio() : Double
++setDesvio(desvio : Double) : void
++toString() : String
+}
+
+class CompetenciaTecnica {
+-String codigo
+-String nome
++CompetenciaTecnica(codigo : String, nome : String) 
++getCodigo() : String
++setCodigo(codigo : String) : void
++getNome() : String
++setNome(nome : String) : void
+}
+
+class CompetenciasTecnicasFreelancer {
+-Freelancer freelancer
+-CompetenciaTecnica competenciaTecnica
+-Int grauProficiencia 
++CompetenciasTecnicasFreelancer(freelancer : Freelancer, competenciaTecnica : CompetenciaTecnica, grauProficiencia : int)
++getFreelancer() : Freelancer
++setFreelancer(freelancer : Freelancer) : void
++getCompetenciaTecnica() : CompetenciaTecnica
++setCompetenciaTecnica(competenciaTecnica : CompetenciaTecnica) : void
++getGrauProficiencia() : int
++setGrauProficiencia(grauProficiencia : int) : void
+}
+
+class CompetenciasTecnicasTarefa {
+-Tarefa tarefa
+-CompetenciaTecnica competenciaTecnica
+-Boolean obrigatoria
++CompetenciasTecnicasTarefa(tarefa : Tarefa, competenciaTecnica : CompetenciaTecnica, obrigatoria : boolean)
++getTarefa() : Tarefa
++setTarefa(tarefa : Tarefa) : void
++getCompetenciaTecnica() : CompetenciaTecnica
++setCompetenciaTecnica(competenciaTecnica : CompetenciaTecnica) : void
++isObrigatoria() : Boolean
++setObrigatoria(obrigatoria : Boolean) : void
+}
+
+class Freelancer {
+-String nome
+-String nif
+-String telefone
+-String email
++Freelancer(nome : String, nif : String, telefone : String, email : String)
++getNome() : String
++setNome(nome : String) : void
++getNif() : String
++setNif(nif : String) : void
++getTelefone() : String
++setTelefone(telefone : String) : void
+}
+
+class Tarefa {
+-String codigo
+-String designacao
+-String categoria
++Tarefa(codigo : String, designacao : String, categoria : Categoria)
++getCodigo() : String
++setCodigo(codigo : String) : void
++getDesignacao() : String
++setDesignacao(designacao : String) : void
++getCategoria() : String
++setCategoria(categoria : String) : void
+}
+
+interface TipoSeriacao {
+executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList <Candidatura>
+}
+
+class TipoSeriacao1 {
+-ArrayList <Candidatura> candidaturasDoAnuncio
++executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList <Candidatura>
+}
+
+class TipoSeriacao2 {
+-ArrayList <Candidatura> candidaturasDoAnuncio
++executa(codigoAnuncio : String, dados : SeriarAnunciosContrller) : ArrayList <Candidatura>
+}
+
+class CandidaturaChainedComparator {
+-List <Comparator<Candidatura>> listComparators
++CandidaturaChainedComparator(Comparator<Candidatura>... comparators
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+
+class CandidaturaDataComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+class CandidaturaDesvioComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+class CandidaturaMediaComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+class CandidaturaValorComparator {
++compare(c1 : Candidatura, c2 : Candidatura) : int
+}
+
+CandidaturaDataComparator  --* CandidaturaChainedComparator 
+CandidaturaDesvioComparator  --* CandidaturaChainedComparator 
+CandidaturaMediaComparator  --* CandidaturaChainedComparator 
+CandidaturaValorComparator  --* CandidaturaChainedComparator 
+
+TipoSeriacao1 ..|> TipoSeriacao
+TipoSeriacao2 ..|> TipoSeriacao
+
+TipoSeriacao --* ListaCandidaturaSeriadasUI
+
+CandidaturaChainedComparator --* TipoSeriacao
+
+ListaCandidaturaSeriadasUI --|> ListaSeriacoesUI
+ListaSeriacoesUI --|> ListaCandidaturasUI
+ListaCandidaturasUI --|> ListaAnunciosUI
+ListaAnunciosUI --|> PaginaInicialUI
+PaginaInicialUI --|> MainApp
+
+MainApp --* SeriarAnunciosController 
+
+Tarefa --* CompetenciasTecnicasTarefa
+Tarefa --* Anuncio
+
+Freelancer --* Candidatura
+Freelancer --* CompetenciasTecnicasFreelancer
+
+CompetenciaTecnica --* CompetenciasTecnicasTarefa
+CompetenciaTecnica --* CompetenciasTecnicasFreelancer
+
+Anuncio --* Candidatura
+
+SeriarAnunciosController --* Tarefa
+SeriarAnunciosController --* Freelancer
+SeriarAnunciosController --* Anuncio
+SeriarAnunciosController --* Candidatura
+SeriarAnunciosController --* CompetenciaTecnica
+SeriarAnunciosController --* CompetenciasTecnicasTarefa
+SeriarAnunciosController --* CompetenciasTecnicasFreelancer
+SeriarAnunciosController --* CandidaturaChainedComparator
+
+ListaCandidaturaSeriadasUI --* SeriarAnunciosController
+ListaSeriacoesUI --* SeriarAnunciosController
+ListaCandidaturasUI --* SeriarAnunciosController
+ListaAnunciosUI --* SeriarAnunciosController
+PaginaInicialUI --* SeriarAnunciosController
+MainApp --* SeriarAnunciosController
+
+
+
+
+@enduml

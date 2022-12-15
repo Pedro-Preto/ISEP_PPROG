@@ -1,0 +1,8 @@
+NIFfreelancer; nomeCompetencias; graus prof
+nif1; CT1, CT2, CT3, CT4; 5, 4, 3, 3
+nif2; CT1, CT2, CT3, CT6; 4, 2, 5, 1
+nif3; CT1, CT2, CT3, CT4; 4, 2, 5, 3
+nif4; CT1, CT2, CT3, CT6; 4, 2, 5, 2
+nif5; CT1, CT2, CT3, CT6; 4, 2, 5, 3
+nif6; CT1; 4
+nif7; CT1, CT2, CT3, CT6; 7, 7, 7, 7

@@ -1,0 +1,4 @@
+RefTarefa; DesigTarefa; Nome Categoria; CodigoCT
+TAR1; EscreverArtigoParaRevista; Literatura;CT1
+TAR2; ArranjarJardim; Jardinagem; CT2
+TAR3; Protese; Medicina; CT3

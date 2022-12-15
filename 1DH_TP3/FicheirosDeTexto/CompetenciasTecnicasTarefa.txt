@@ -1,0 +1,4 @@
+Tarefa; Competencias; obrigatoriedade
+TAR1; CT1,CT2; true,false
+TAR2; CT3,CT4; true,true
+TAR3; CT6; true

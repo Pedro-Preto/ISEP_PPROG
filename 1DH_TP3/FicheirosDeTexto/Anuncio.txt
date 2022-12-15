@@ -1,0 +1,4 @@
+Código Anuncio; referencia da tarefa 
+ANUNC1; TAR1
+ANUNC2; TAR2
+ANUNC3; TAR3

@@ -1,0 +1,9 @@
+NifDoCandidato; Anuncio; Data Candidatura; ValorPretendido
+nif1; ANUNC1;  26/1/2020; 1000
+nif2; ANUNC2;  27/1/2020; 1000
+nif1; ANUNC2;  26/1/2020; 2000
+nif3; ANUNC2;  26/1/2020; 1000
+nif4; ANUNC3;  26/1/2020; 2000
+nif5; ANUNC3;  27/1/2020; 1000
+nif7; ANUNC3;  27/1/2020; 1000
+nif2; ANUNC3;  27/1/2020; 1000

@@ -1,0 +1,7 @@
+Codigo; nomeCompetencias
+CT1; vocabulario
+CT2; gramatica
+CT3; filosofia
+CT4; adubagem
+CT5; floricultura
+CT6; algoritmia
